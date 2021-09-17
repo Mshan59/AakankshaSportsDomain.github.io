@@ -1,7 +1,7 @@
 /* -----Sports Domain-------- */
 /* 1.header logo  */
 header{
-    position: fixed;
+    position:absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -23,6 +23,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 40px;
 }
 .middle ul li{
     position: relative;
@@ -168,3 +169,16 @@ header{
     background: rgba(255, 255, 255, 0.349);
     transform: skew(68deg);
 }
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float:right;
+    line-height: 60px;
+    margin-right: 15px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
