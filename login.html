@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="./Css/shortnots/footer.css" />
     <link rel="stylesheet" href="./Css/shortnots/slider.css" />
     <link rel="stylesheet" href="/Css/style.css" />
+    <link rel="stylesheet" href="/Css/signin.css" />
     <link rel="icon" href="./Images/logo-3.jpeg" type="image/gif" sizes="16x16">
     <script src="https://kit.fontawesome.com/41245bfce6.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
-    <title>Sports Event</title>
+    <title>Sports Store</title>
   </head>
   <body>
     <header>
       <div class="logo_aakanksha">
-        <a href="/"><img src="./Images/logo-3.jpeg" alt="Aakanksha"  style="--i:2;--j:0;"/></a>
+        <a href="/"><img src="./Images/logo-3.jpeg" alt="Aakanksha" style="--i:2;--j:0;"/></a>
       </div>
       <div class="middle">
         <ul>
@@ -36,114 +37,104 @@
           <span><i class="fas fa-cart-plus"></i></span>
         </a>
       </div>
-      <!-- <div class="cart" >       
-        <a href="#">
-          <img src="./Images/cart.png" alt="">
-        </a>
-      </div> -->
     </header>
-    <section class="banner">
-        <div class="slider-left-col">
-          <h3>Welcom To The </h3>
-            <h1>Aakanksha</h1>
-            <p>Something for Everyone</p>
+   <div class="container-fluid" id="bradcrumb">
+    <nav  aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Library</li>
+        </ol>
+        
+      </nav>
+   </div>
 
-      </div>
-        <div class="slider-right-col">
-         <img src="https://www.top-sport.hr/wp-content/uploads/2017/01/dodaci.jpg" alt="" style="--i:2;--j:0;">
-         <img src="https://www.top-sport.hr/wp-content/uploads/2017/01/dodaci.jpg" alt="" style="--i:1;--j:1;">
-         <img src="https://www.top-sport.hr/wp-content/uploads/2017/01/dodaci.jpg" alt="" style="--i:0;--j:2;">
-         <img src="https://www.top-sport.hr/wp-content/uploads/2017/01/dodaci.jpg" alt="" style="--i:-1;--j:3;">
-         <img src="https://www.top-sport.hr/wp-content/uploads/2017/01/dodaci.jpg" alt="" style="--i:-2;--j:4;">
-        </div>
-        <div class="square">
-          <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-          </ul>
-      </div>
-      <div class="circle">
-          <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-          </ul>
-      </div>
+   <section>
 
-    </section>
-    <section class="aankanksha_store">
-     <div class="contianer">
-        <div class="location_search">
-          <input type="text" placeholder="Location"><br>
-          <div class="icon">  
-            <i class="fas fa-map-marker-alt"></i>
-          </div>
-          <input type="text" placeholder="secrch"><i class="fas fa-search"></i>
-        </div>
-      </div>
-  </section>
-
-  <section>
-    <h2><center> Sports Events </center></h2>
     <div class="container">
-      <h2><center></center></h2>
-      <div class="card">
-        <div class="aakanksha_img">
-          <img src="https://www.kindpng.com/picc/m/787-7877542_banner-for-sport-event-png-download-banner-for.png" alt="">
-        </div>
-        <div class="content">
-          <h2>Sports Day Carni-val </h2>
-          <p> <b> This Wednesday Sports Hall And Oval One  </b></p>
-          <div class="card-footer text-muted">
-              2 days ago
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="" class="sign-in-form">
+            <h2 class="title">SignIn</h2>
+            <div class="input-field">
+              <i class="fa fa-user"></i>
+              <input type="text" placeholder="Username">
             </div>
-            <div class="location" style="display: flex;">
-          <input class="ps-2" type="button" value="Book Tickets">
-        </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="aakanksha_img">
-          <img src="https://www.bannershop.com.au/pub/media/wysiwyg/sport_competition/Sport-and-competition_web_banner_en.png" alt="">
-        </div>
-        <div class="content">
-          <h2>Time to Sports</h2>
-          <p> <b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, quia?</b></p>
-          <div class="card-footer text-muted">
-            4 days ago
-          </div>
-          <div class="location" style="display:flex;">
-            <input class="ps-2" type="button" value="Book Tickets">
-          </div>
+            <div class="input-field">
+              <i class="fa fa-lock"></i>
+              <input type="password" placeholder="Password">
+            </div>
+            <input type="submit" name="" value="Sign In" class="btn solid">
+            <p class="social-text">Or SignIn With Social Platform</p>
+            <div class="social-media">
+              <a href="#" class="social-icon"><i class="fa fa-facebook-f"></i></a>
+              <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="social-icon"><i class="fa fa-google"></i></a>
+              <a href="#" class="social-icon"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </form>
 
+          <form action="" class="sign-up-form">
+            <h2 class="title">SignUp</h2>
+            <div class="input-field">
+              <i class="fa fa-user"></i>
+              <input type="text" placeholder="First Name">
+            </div>
+            <div class="input-field">
+              <i class="fa fa-user"></i>
+              <input type="text" placeholder="Last Name">
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email">
+            </div>
+            <div class="input-field">
+              <i class="fas fa-mobile"></i>
+              <input type="number" placeholder="Mobile No">
+            </div>
+            <div class="input-field">
+              <i class="fa fa-lock"></i>
+              <input type="password" placeholder="Password">
+            </div>
+            <div class="input-field">
+              <i class="fa fa-lock"></i>
+              <input type="password" placeholder="Confirm Password">
+            </div>
+            <input type="submit" name="" value="Sign Up" class="btn solid">
+            <p class="social-text">Or SignUp With Social Platform</p>
+            <div class="social-media">
+              <a href="#" class="social-icon"><i class="fa fa-facebook-f"></i></a>
+              <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="social-icon"><i class="fa fa-google"></i></a>
+              <a href="#" class="social-icon"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </form>
         </div>
       </div>
-      <div class="card">
-        <div class="aakanksha_img">
-          <img src="https://www.iitp.ac.in/sports/images/banner.jpg" alt="">
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>New Here ?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, amet laudantium modi minima aperiam porro fugit laboriosam enim autem facere consequatur dolor, minus odio debitis.</p>
+            <button class="btn transparent " id="sign-up-btn">Sign Up</button>
+          </div>
+          <img src="./Images/signin-up/grand_slam.svg" class="image" alt="">
         </div>
-        <div class="content">
-          <h2> Mega Sports Event</h2>
-          <p><b> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, deleniti.</b></p>
-          <div class="card-footer text-muted">
-            6 days ago
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>One of Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, amet laudantium modi minima aperiam porro fugit laboriosam enim autem facere consequatur dolor, minus odio debitis.</p>
+            <button class="btn transparent " id="sign-in-btn">Sign In</button>
           </div>
-          <div class="location" style="display: flex;">
-            <input type="button" value="Book Tickets">
-          </div>
+          <img src="./Images/signin-up/finish line.svg"  class="image" alt="">
         </div>
       </div>
     </div>
-  </section>
+   </section>
+ 
 
-   
-
-<!-- ----------user links------------------------- -->
+  
+    
+    <!-- ----------user links------------------------- -->
 <section class="customer_info">
   <div class="customer_help">
     <ul>
@@ -160,7 +151,6 @@
   </div>
   
 </section>
-
 
     <section class="footer">
       <p class="float-end"><a href="#"><i class="fas fa-angle-up"></i></a></p>
@@ -197,6 +187,30 @@
         <p class="copyright" style="font-size: 20px;">design by <i class="fa fa-heart-o"></i> Aakanksha</p>
     </div>
     </section>
+
+
+    <script>
+      const sign_in_btn = document.querySelector("#sign-in-btn");
+  const sign_up_btn = document.querySelector("#sign-up-btn");
+  const container = document.querySelector(".container");
+
+  sign_up_btn.addEventListener("click", () => {
+  container.classList.add("sign-up-mode");
+  });
+
+  sign_in_btn.addEventListener("click", () => {
+  container.classList.remove("sign-up-mode");
+  }); 
+    </script>
+
+
+
+
+
+
+
+
+
   </body>
 
   <script src="./Javascript/jquery-3.6.0.min.js"></script>

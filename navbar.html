@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/41245bfce6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      /* .navbar{
+            background: rgb(182, 45, 45);
+        } */
+      .uppar-nav {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+      }
+      .left-col {
+        display: flex;
+        flex-direction: row;
+        flex-basis: 45%;
+        width: 50%;
+        height: 100px;
+        float: left;
+        padding: 5px 0;
+        background: linear-gradient(rgb(4, 3, 92), rgb(189, 155, 155));
+        top: 13px;
+      }
+      .left-col .logo {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        top: -9px;
+      }
+      .left-col .logo img {
+        position: relative;
+        height: 120px;
+        width: 120px;
+        justify-content: center;
+        align-items: center;
+      }
+      .right-col {
+        flex-basis: 50%;
+        width: 50%;
+        height: 100px;
+        float: right;
+        top: 20px;
+        /* left: 100px; */
+        /* right: 50px; */
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(rgb(4, 3, 92), rgb(189, 155, 155));
+      }
+      .right-col a {
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        top: 30px;
+        /* left: 300px; */
+        font-size: 20px;
+        color: #fff;
+        margin: 0 11px;
+        text-decoration: none;
+      }
+      .bottum_nav {
+        top: 100px;
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg")
+          no-repeat center/cover;
+      }
+      .bottum_nav .row {
+        /* display: flex; */
+        flex-direction: row;
+      }
+      .bottum_nav .row ul {
+        display: flex;
+        margin: 10px 12px;
+      }
+      .bottum_nav .row ul li {
+        position: relative;
+        margin: 10px 10px;
+        list-style: none;
+      }
+      .bottum_nav .row ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 25px;
+        font-weight: 700;
+        letter-spacing: 1px;
+
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        background: none;
+        /* border-bottom:2px solid #fff ; */
+      }
+      .bottum_nav .row ul li:hover a {
+        border-bottom: 2px solid #fff;
+        padding: 3px;
+      }
+      .input-field {
+        max-width: 380px;
+        width: 100%;
+        height: 55px;
+        background-color: #f0f0f0;
+        margin: 10px 0;
+        border-radius: 55px;
+        display: grid;
+        grid-template-columns: 85% 15%;
+        padding: 0 0.4rem;
+      }
+      .input-field i {
+        text-align: center;
+        line-height: 55px;
+        color: #acacac;
+        font-size: 1.1rem;
+      }
+      .input-field input {
+        background: none;
+        outline: none;
+        border: none;
+        line-height: 1;
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: #333;
+      }
+      .input-field input::placeholder {
+        color: #aaa;
+        font-size: 20px;
+        font-weight: 600px;
+      }
+      .add-cart{
+          display: block;
+          margin: 15px 100px;
+          font-size: 30px;
+          color: #fff;
+      }
+      .add-cart a{
+        text-decoration: none;
+        color: #fff;
+      }
+    </style>
+
+    <title>navbar</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbaar">
+        <div class="uppar_nav">
+          <div class="left-col">
+            <div class="logo">
+              <a href="/"><img src="./Images/logo-p.png" alt="" /></a>
+            </div>
+            <!-- <div class="logo_text">
+                        <h3>Aakanksha</h3>
+                        <p>Something For Everyone</p>
+                    </div> -->
+          </div>
+          <div class="right-col">
+            <a href="#"> <i class="fab fa-google"></i> </a>
+            <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+            <a href="#"> <i class="fab fa-instagram"></i> </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> </a>
+          </div>
+        </div>
+      </nav>
+      <nav>
+        <div class="bottum_nav">
+          <div class="row">
+            <div class="navbar">
+              <ul>
+                <li><a href="#">Accesories</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Stores</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Help</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field">
+              <input type="search" placeholder="Search here" />
+              <i class="fas fa-search"></i>
+            </div>
+          </div>
+          <div class="add-cart">
+           <a href="#"> signIn/signUp</i></a>
+           <a href="#"> <i class="fas fa-shopping-cart"></i></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

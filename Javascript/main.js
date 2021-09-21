@@ -40,20 +40,6 @@ var manualNav=function(manual){
 }
 
 // -----------------mobile---------------------
-
-
-        var menuBtn = document.getElementById("menuBtn");
-        var sideNav = document.getElementById("sideNav");
-
-        sideNav.style.right = "-250px";
-        menuBtn.onclick = function () {
-            if (sideNav.style.right == "-250px") {
-                sideNav.style.right = "0";
-            }
-            else {
-                sideNav.style.right = "-250px";
-            }
-        }
     
 
 
@@ -62,7 +48,7 @@ var manualNav=function(manual){
 
   var slide = document.querySelector('input');
   var result = document.querySelector('.price-result');
-  result.textContent= slide.value;
+  result.textContent = slide.value;
   slide.oninput= function(){
     result.textContent= this.value;
 
@@ -108,4 +94,7 @@ var manualNav=function(manual){
       moveIndicator(e.target);
     });
   });
+
+// ----------------------login ---------------
+
 

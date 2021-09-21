@@ -565,6 +565,15 @@
     font-size: 20px;
     font-weight: bold;
 }
+.product-bottom h3 a{
+    color: rgb(141, 140, 140);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-bottom h3:hover a{
+    color: #000;
+}
 .overlay-right h5{
     font-size: 15px;
     padding-bottom: 10px;
@@ -619,9 +628,6 @@
 
 
 
-.on-sale{
-    margin: 50px 0 ;
-}
 .product-top img{
     width: 100%;
 }
@@ -819,5 +825,69 @@
     background:#5da6ff;
     box-shadow: 0 0 15px #5da6ff, 0 0 30px #5da6ff, 0 0 45px #5da6ff,0 0 60px #5da6ff ;
 }
+
+
+
+
+/* login-----------section------------- */
+#bradcrumb{
+    margin-top: 100px;
+    display:block;
+    position:relative;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    background: #043988;
+    margin-bottom: 50px;
+    /* opacity: 0.75; */
+}
+#bradcrumb nav ol li {
+
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 110px;
+    left: 570px;
+    font-size: 30px;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+/* end -------login-----------section------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
