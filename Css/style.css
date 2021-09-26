@@ -908,7 +908,7 @@
     z-index: -6;
     transition: 1.8s ease-in-out;
 }
-.filter_product:hover:before{
+/* .filter_product:hover:before{
     content: '';
     position: absolute;
     width: 2400px;
@@ -919,7 +919,7 @@
     right: -70%;
     transform: translateX(50%);
     transition: 1.8s ease-in-out;
-}
+} */
 .side_filter{
     position: relative;
     /* width: 100%; */
@@ -944,7 +944,7 @@
     z-index: -6;
     transition: 1.8s ease-in-out;
 }
-.side_filter:hover:before{
+/* .side_filter:hover:before{
     content: '';
     position: absolute;
     width: 500px;
@@ -955,7 +955,7 @@
     right: -20%;
     transform: translateX(50%);
     transition: 1.8s ease-in-out;
-}
+} */
 .filter_list{
     margin: 20px 20px;
      display: flex;
