@@ -12,7 +12,7 @@
     width: 2400px;
     height: 2800px;
     border-radius:50%;
-    background: linear-gradient(-45deg, #90b2ec,#043988);
+    background: linear-gradient(45deg, #c8d8f3,#043988);
     top: -10%;
     right: 48%;
     transform: translateY(-50%);
