@@ -107,6 +107,11 @@
     transition: 0.5s ease-in-out;   
 }
 
+/*--------View More Button---------*/
+.viewButton{
+    margin-left: 240pt;
+}
+
 
 /* ------------------slider-2___________________ */
 
