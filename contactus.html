@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./Css/shortnots/header.css">
     <link rel="stylesheet" href="./Css/contact.css">
     <link rel="stylesheet" href="./Css/signin.css">
+    <link rel="stylesheet" href="./Css/responsive.css">
 
     <!-- Bootstrap CSS -->
     <link
@@ -28,21 +29,16 @@
   </head>
   <body>
     <header>
-    
       <!-- navbar--------- -->
 
       <div class="top-nav">
         <div class="col-md-5">
-          <img
-            src="./Images/logo-p.png"
-            alt=""
-            style="height: 100px; width: 100px; padding: 15px 15px"
-          />
+          <img src="./Images/logo-p.png" alt="" />
         </div>
         <div class="search">
           <div class="search_box">
             <ul>
-              <div class=" input-fields input_search">
+              <div class="input-fields input_search">
                 <li>
                   <input type="search" placeholder="Search Here......." />
                   <i class="fas fa-search"></i>
@@ -50,7 +46,35 @@
               </div>
               <div class="input-fields">
                 <li>
-                  <a href="#" style="color: #fff; text-decoration:  none; font-size: 30px;" 
+                  <a
+                    href="#"
+                    style="color: #fff; text-decoration: none; font-size: 30px"
+                    ><i class="fas fa-cart-plus"></i> 0
+                  </a>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-nav">
+        <div class="col-md-5">
+          <img src="./Images/logo-p.png" alt="" />
+        </div>
+        <div class="search">
+          <div class="search_box">
+            <ul>
+              <div class="input-fields input_search">
+                <li>
+                  <input type="search" placeholder="Search Here......." />
+                  <i class="fas fa-search"></i>
+                </li>
+              </div>
+              <div class="input-fields">
+                <li>
+                  <a
+                    href="#"
+                    style="color: #fff; text-decoration: none; font-size: 30px"
                     ><i class="fas fa-cart-plus"></i> 0
                   </a>
                 </li>
@@ -63,19 +87,80 @@
       <nav>
         <div class="navbar">
           <ul>
-            <li><a href="#">Accesories</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Store</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="./sports_acces.html">Accesories</a></li>
+            <li><a href="./sports_events.html">Events</a></li>
+            <li><a href="./sports_store.html">Store</a></li>
+            <li><a href="./contactus.html">Contact Us</a></li>
             <li><a href="#">Help</a></li>
           </ul>
           <div class="sign-up">
-             <a href="./login.html"><i class="fas fa-sign-in-alt"></i> Login</a>
-            <a href="./login.html">  <i class="fas fa-user-plus"></i> Signup</a>
+            <a href="./login.html"><i class="fas fa-sign-in-alt"></i> Login</a>
+            <a href="./login.html"> <i class="fas fa-user-plus"></i> Signup</a>
           </div>
         </div>
-        
       </nav>
+<!-- -------------------------mobile-------------------- -->
+<div class="bottum-mob-nav">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <div class="mob-nav">
+        <ul>
+          <li><a href="">Accesories</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Store</a></li>
+          <li><a href="./contactus.html">Contact Us</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+        <div class="sign-up">
+          <a href="#"><i class="fas fa-sign-in-alt"></i> Login</a>
+          <a href="#"> <i class="fas fa-user-plus"></i> Signup</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark ">
+    <div class="container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarToggleExternalContent"
+        aria-controls="navbarToggleExternalContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+</div>
+
+
+
+      <!-- banner-------------------------- -->
+      <div class="container-fluid">
+        <div class="row">
+          <!-- <img
+            src="./Images/banner/banner_1.jpg"
+            style="height: 400px; width: 100%"
+            alt=""
+          /> -->
+        </div>
+      </div>
+      <div class="banner">
+        <div class="info">
+          <h1> <span style="font-size: 30px;">  Welcome To </span> <span style="color: rgba(133, 1, 126, 0.89); font-size:75px;">'Aakansha' </span> <i><span style="font-size: 30px;">
+            
+          Something For EveryOne</span> </i></h1>
+          
+          <img
+            src="https://sites.google.com/site/gsportsevents1/_/rsrc/1450841521103/home/slide1-image-tablet.png"
+            alt=""
+            style="height: 260px; width: 780px"
+          />
+        </div>
+      </div>
+
     </header>
 
 
