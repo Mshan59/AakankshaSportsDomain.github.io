@@ -210,7 +210,7 @@
     overflow: hidden;
   }
   .banner::before {
-    content:'sports';
+    content:'';
     text-align: center;
     position: absolute;
     width: 700px;
@@ -224,7 +224,7 @@
     right: 28%;
     transform: translateX(50%);
     transition: 1.8s ease-in-out;
-    box-shadow: 0px -15px 10px rgba(0,0,0,0.25);
+    box-shadow: 0px -10px 10px rgba(0,0,0,0.25);
     /* clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); */
     /* clip-path: polygon(21% 18%, 90% 39%, 19% 82%, 54% 13%, 72% 71%, 84% 14%, 17% 39%, 20% 56%, 50% 74%, 67% 78%, 90% 59%, 97% 22%, 51% 42%, 49% 51%, 39% 58%); */
   }
@@ -286,6 +286,17 @@
     margin: 12px 12px;
     padding: 10px 10px;
   }
+  .input-fields sup{
+    left:-10px;
+    background: #000;
+    height: 10px;
+    width: 20px;
+    top: -15px;
+    font-size: 13px;
+    padding: 1px 5px;
+    border-radius: 50%;
+
+  }
   .input_search {
     background: #001729;
     color: #fff;
@@ -306,10 +317,16 @@
   }
   .input-fields{
     margin-left: 100px;
+
   }
   .input_search i{
     padding-left:10px;
     padding-right:15px;
+    color: #fff;
+  }
+  .input_search a{
+    text-decoration: none;
+    color: #fff;
   }
   .search ul li {
     display: block;
@@ -344,24 +361,17 @@
     margin-left: 16px;
   }
   .navbar ul li a{ 
-    /* background: #1a90eb; */
-    /* border-radius: 13px; */
-    /* border-top: 2px solid #022753; */
     padding: 4px 4px;
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    font-size: 30px;
-    transition: .25s ease-in-out;
+    font-size: 25px;
   }
   .navbar ul li:hover a{ 
-    color: #f10cd3;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 30px;
-    border-top: none;
-    transition: .25s ease-in-out;
-    /* border-bottom: 3px solid #022753; */
+    color: #d0f4fd;
+    border-radius:30px;
+    padding: 3px 8px;
+    border: 2px solid #d0f4fd ;
   }
   .sign-up{
     margin-right: 20px;

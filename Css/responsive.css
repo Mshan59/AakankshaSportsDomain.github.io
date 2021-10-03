@@ -124,10 +124,21 @@ nav{
     .search ul{
         display:flex ;
         position: relative;
-        margin: 0px 6px;
+        margin: 0px;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        left: -63px;
+        width: 150px;
+        height: 30px;
+
+    }
+    .search ul li input{
+        width: 90px;
+        height: 30px;
     }
 
-   
+
 }
 
 @media only screen and (min-width: 360px) and (max-width: 767px) {
@@ -163,10 +174,13 @@ nav{
 }
 @media only screen and (min-width: 320px) and (max-width: 767px){
     .mobile-nav{
-        display: block;
+        display: flex;
+        margin-left: -130px;
     }
     .mobile-nav img{
-        margin-left: 100px;
+        margin-left: 135px;
+        width: 50px;
+        height: 50px;
     }
     .top-nav{
         display: none;
@@ -174,7 +188,8 @@ nav{
     .input_search {
         background: #001729;
         color: #fff;
-        height: 45px;
+        height: 30px;
+        width: 150px;
     }
     .input_fields  {
         display:block;
