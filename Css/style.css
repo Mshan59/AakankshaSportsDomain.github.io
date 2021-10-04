@@ -1111,8 +1111,13 @@
     margin-left: 12px;
 }
 .user_gender ul li{
-    margin: 10px 10px;
+    /* margin: 10px 10px; */
     justify-content: center;
+    font-size: 18px;
+    padding: 6px 6px;
+}
+.user_gen_list input{
+    margin: 10px 10px;
 }
 .footer_user_info {
     margin-top: 12px;
