@@ -58,6 +58,7 @@
 .li {
     font-size: 12px;
 }
+
 .fa {
     color: #ff9f43;
     font-size: 15px;
@@ -68,6 +69,7 @@
     transform: scale(1.3);
     transition: .6s;
 }
+
 .border {
 
     height: 45px;
@@ -120,10 +122,10 @@
 }
 
 #cards_landscape_wrap-2 .card-flyer .image-box img {
-    /* -webkit-transition: all .9s ease;
+    -webkit-transition: all .9s ease;
     -moz-transition: all .9s ease;
     -o-transition: all .9s ease;
-    -ms-transition: all .9s ease; */
+    -ms-transition: all .9s ease;
     width: 100%;
     height: 200px;
 }
@@ -191,14 +193,16 @@
     line-height: 32px;
     font-size: 1.25em;
 }
-.bg{
-background-color: #003366;
-color: #ffffff;
+
+.bg {
+    background-color: #003366;
+    color: #ffffff;
 }
 
 .star-rating .fa-star {
     color: yellow;
 }
+
 .container {
     margin-top: 50px
 }
@@ -216,11 +220,25 @@ color: #ffffff;
 .form-control {
     border: 3px solid #0ff1ce
 }
-.hei{
-    height:50px;
-    width:50vh;
-    padding:10px;
+
+.hei {
+    height: 50px;
+    width: 50vh;
+    padding: 10px;
 }
-.back{
-   background-color:#003366;
+
+.back {
+    background-color: #003366;
+    padding: 30px;
+}
+
+
+iframe {
+    border: 0px solid black;
+    width: 30%;
+    height: 30%;
+}
+
+.output {
+    background: #eee;
 }

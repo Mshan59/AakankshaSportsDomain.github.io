@@ -44,7 +44,7 @@
 
       <div class="top-nav">
         <div class="col-md-5">
-          <a href="index.html"> <img src="./Images/logo-p.png" alt="" /> </a>
+          <a href="./"> <img src="./Images/logo-p.png" alt="" /> </a>
         </div>
         <div class="search">
           <div class="search_box">
@@ -81,7 +81,7 @@
                   <i class="fas fa-search"></i>
                 </li>
               </div>
-              <div class="input-fields">
+              <div class="input-fields cart_plus">
                 <li>
                   <a
                     href="#"
@@ -146,12 +146,15 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="_cart" style="color: #fff; font-size: 25px;" >
+            <i class="fas fa-cart-plus"></i><sup>0</sup>
+          </div>
           </div>
         </nav>
       </div>
 
       <!-- ------banner------- -->
-        <div class="container-fluid">
+        <!-- <div class="container-fluid"  >
         <div class=" jtron">
           <p><a href="index.html">Home</a><i class="fas fa-angle-left"></i></p>
           
@@ -159,28 +162,31 @@
         </div>
       </div>
       <div class="banner">
-      </div>
+      </div> -->
     </header>
 
-    <section class="add_to_cart">
+    <section>
       <div class="container shopping">
-        <div class="pro_items">
+        <div class="row pro_items">
           <div class="col-md-12">
             <div class="_shop_cart">
               <h3>Shopping Cart</h3>
               <h3>5 Item</h3>
             </div>
-            <hr />
-
-            <table>
+            <hr/>
+            <div>
+            <table class="table table-hover">
+              <thead>
               <tr>
                 <th>Product Details</th>
-                <th>Quantity</th>
-                <th>Color</th>
-                <th>Size</th>
-                <th>Price</th>
-                <th>Total</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Color</th>
+                <th scope="col">Size</th>
+                <th scope="col">Price</th>
+                <th scope="col">Total</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>
                   <div class="pro_det">
@@ -228,7 +234,6 @@
                     </div>
                   </div>
                 </td>
-
                 <td>
                   <select name="1" id="">
                     <option value="1">0</option>
@@ -245,13 +250,15 @@
                 <td>  &#8377 180</td>
                 <td>  &#8377 900</td>
               </tr>
+            </tbody>
             </table>
+          </div>
             <div class="continue_shopping">
-            <a href="#">  <i class="fas fa-arrow-left"></i> Continue Shopping</a>
+            <a href="index.html">  <i class="fas fa-arrow-left"></i> Continue Shopping</a>
             </div>
           </div>
         </div>
-        <div class="pro_price">
+        <div class="col-md-12 pro_price">
           <div class="price_det">
             <div class="order_sum">
               <h3>Order Summery</h3>
@@ -286,10 +293,42 @@
           </div>
           <hr>
           <div class="checkout">
-            <a href="#">Check Out <i class="fas fa-arrow-right"></i></a>
+            <a href="./checkout.html">Check Out <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
       </div>
+    </section>
+
+    <section>
+      <table class="table ">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
     </section>
 
     <section class="customer_info">
@@ -325,6 +364,8 @@
         </ul>
       </div>
     </section>
+
+    
 
     <!-- ----------footer----------------- -->
 

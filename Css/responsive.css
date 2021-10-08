@@ -111,11 +111,18 @@ nav{
     nav{
         display:none;
     }
+    ._cart{
+        display: none;
+    }
 
 }
 @media (max-width: 767px){
     .top-nav{
         display:block;
+    }
+@media (max-width: 568px){
+    .mobile-nav{
+        display:none;
     }
     /* .top-nav img{
         display: none;
@@ -134,7 +141,7 @@ nav{
 
     }
     .search ul li input{
-        width: 90px;
+        width: 150px;
         height: 30px;
     }
 
@@ -189,7 +196,8 @@ nav{
         background: #001729;
         color: #fff;
         height: 30px;
-        width: 150px;
+        justify-content: center;
+        width: 250px;
     }
     .input_fields  {
         display:block;
@@ -197,9 +205,18 @@ nav{
         color: #fff;
 
     }
-    .input_search input{
+    .input_search li input{
         width: 200px;
         height: 45px;
+    }
+    .in-cart li a{
+        display: flex;
+    }
+    .col-md-2{
+        display: none;
+    }
+    .cart_plus{
+        display: none;
     }
 }
 
@@ -236,5 +253,12 @@ nav{
     #marker::before{
         display: none;
     }
+    .pro_det{
+
+        display: flex;
+        font-size: 15px;
+        flex-direction: column;
+    }
+}
 
 }
