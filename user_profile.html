@@ -171,45 +171,53 @@
           </div>
         </div>
       </div>
-        <div class="filter_product">
-          <div class="product_list">          
+        <div class=" filter_product">
+          <div class=" container-lg product_list">          
             <div class="personal_info" id="Personal_info">
             <div class="personal_name">
                 <h2>Personal Information  </h2> <span>Edit</span>
             </div>
                 <form action="">
-                    <div class="user_name">
-                        <input type="text" placeholder="First Name">
-                        <input type="text" placeholder="Last Name">
+                  <div class="row p-4">
+                    <div class="col-auto">
+                      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
                     </div>
+                    <div class="col-auto">
+                      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    </div>
+                  </div>
                     <div class="user_gender">
                         <label for=""><b> Your gender </b></label>
                         <div class="user_gen_list">
                         <ul style="list-style: none;" class="d-flex">
-                            <li><input type="radio">Male</li>
-                            <li><input type="radio">Female</li>
-                            <li><input type="radio">Other</li>
+                            <li><input class="form-check-input" type="radio">Male</li>
+                            <li><input class="form-check-input" type="radio">Female</li>
+                            <li><input class="form-check-input" type="radio">Other</li>
                         </ul>
                     </div>
-                    <div class="user_Email  my-4">
-                      <label for=""><b> Email Address </b></label> &nbsp; <span>Edit</span> 
-                        <div class="user_email">
-                            <input type="email" placeholder="Email Adress">
+                    <div class=" row user_Email  my-4">
+                      <label for=""><b> Email Address </b></label><span>Edit</span> 
+                        <div class="col-auto">
+                            <input type="email" class="form-control"  placeholder="Email Adress" aria-label="Last name">
                         </div>
                     </div>
-                        <div class="userchange">
-                        <label for=""> <b> Change Password </b></label> &nbsp; <span>Edit</span>                       
-                        <div class="user_password">
-                            <input type="password" placeholder="Old Password">
-                            <input type="password" placeholder="New Password">
-                            <input type="password" placeholder="Confirm Password">
+                        <div class=" row userchange">
+                        <label for=""> <b> Change Password </b></label><span>Edit</span>                       
+                        <div class=" col-auto user_password">
+                            <input type="password" class="form-control" placeholder="Old Password" area-lable=" Old Password">
+                        </div> 
+                        <div class="col-auto user_password">
+                            <input type="password" class="form-control"  placeholder="New Password" area-lable="New Password">
+                        </div> 
+                        <div class="col-auto user_password">
+                            <input type="password" class="form-control"  placeholder="Confirm Password" area-lable="Confirm Password">
                         </div>
                       </div>
                     
-                    <div class="user_mobile my-4">
-                        <label for=""> <b> Change Mobile No.</b></label>  &nbsp; <span>Edit</span> 
-                        <div class="user_mob">
-                            <input type="tel" placeholder="987-654-3210">
+                    <div class=" row user_mobile my-4">
+                        <label for=""> <b> Change Mobile No.</b></label><span>Edit</span> 
+                        <div class=" col-auto user_mob">
+                            <input type="tel" class="form-control" area-lable="987-654-3210" placeholder="987-654-3210">
                         </div>
                     </div>
                 </form>
