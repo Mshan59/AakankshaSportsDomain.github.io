@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(104, 104, 104);
+    font-style: italic;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+
+    margin-bottom: 50px;
+    line-height: 50px;
+}
+
+input, select {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+h3{
+    font-family: serif;        
+    font-style: normal; 
+    font-weight: bold; 
+    color: rgb(255, 255, 255); 
+
+    margin-bottom: 50px;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 300;
+    text-align: center;
+  }
+  
+ 
