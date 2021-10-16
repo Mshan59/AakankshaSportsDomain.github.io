@@ -2,204 +2,145 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/registration.css"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Organise Event</title>
 
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="Discord/fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="Discord/vendor/nouislider/nouislider.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="Discord/css/style.css">
 </head>
-<style>
-     body, table, input, textarea{
-         border-radius: 10px;
-     }
-     input, textarea{
-        background-color: rgb(240, 240, 240);
-     }
-
-
-     .hello  {
-         background-color: rgb(19, 69, 177);
-         color: rgb(255, 255, 255);
-         font-size: 25px;
-         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     }
-</style>
 <body>
-        <h3>EVENTS REGISTRATION FORM</h3>
-        
-         
-        <table align="center" cellpadding = "10">
-         
-        <!----- First Name ---------------------------------------------------------->
-        <tr>
-        <td>Organiser's Name:</td>
-        <td><input type="text" name="First_Name" maxlength="30"/>
-        (max 30 characters a-z and A-Z)
-        </td>
-        </tr>
 
-        <!----- Organising committee: ---------------------------------------------------------->
-        <tr>
-        <td>Event Name:</td>
-        <td><input type="text" name="Last_Name" maxlength="30"/>
-        (max 30 characters a-z and A-Z)
-        </td>
-        </tr>
+    <div class="main">
 
-        <!----- Organising Committee ---------------------------------------------------------->
-        <tr>
-        <td>Organising Committee</td>
-            <td><input type="text" name="Last_Name" maxlength="30"/>
-            (max 30 characters a-z and A-Z)
-            </td>
-            </tr>
-         
-        <!----- Date Of Birth -------------------------------------------------------->
-        <tr>
-        <td>Event Date:</td>
-         
-        <td>
-        <select name="Birthday_day" id="Birthday_Day">
-        <option value="-1">Day:</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-         
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
-        <option value="10">10</option>
-        <option value="11">11</option>
-        <option value="12">12</option>
-         
-        <option value="13">13</option>
-        <option value="14">14</option>
-        <option value="15">15</option>
-        <option value="16">16</option>
-        <option value="17">17</option>
-        <option value="18">18</option>
-        <option value="19">19</option>
-        <option value="20">20</option>
-        <option value="21">21</option>
-         
-        <option value="22">22</option>
-        <option value="23">23</option>
-        <option value="24">24</option>
-        <option value="25">25</option>
-        <option value="26">26</option>
-        <option value="27">27</option>
-        <option value="28">28</option>
-        <option value="29">29</option>
-        <option value="30">30</option>
-         
-        <option value="31">31</option>
-        </select>
-         
-        <select id="Birthday_Month" name="Birthday_Month">
-        <option value="-1">Month:</option>
-        <option value="January">Jan</option>
-        <option value="February">Feb</option>
-        <option value="March">Mar</option>
-        <option value="April">Apr</option>
-        <option value="May">May</option>
-        <option value="June">Jun</option>
-        <option value="July">Jul</option>
-        <option value="August">Aug</option>
-        <option value="September">Sep</option>
-        <option value="October">Oct</option>
-        <option value="November">Nov</option>
-        <option value="December">Dec</option>
-        </select>
-         
-        <select name="Birthday_Year" id="Birthday_Year">
-         
-        <option value="-1">Year:</option>
-        <option value="2012">2021</option>
-        <option value="2011">2022</option>
-        <option value="2010">2023</option>
-        <option value="2009">2024</option>
-        <option value="2008">2025</option>
-     
-        </select>
-        </td>
-        </tr>
-         
-        <!----- Address ---------------------------------------------------------->
-        <tr>
-        <td>ADDRESS <br /><br /><br /></td>
-        <td><textarea name="Address" rows="4" cols="30"  style="padding: 50px;"></textarea></td>
-        </tr>
-         
-        <!----- Pin Code ---------------------------------------------------------->
-        <tr>
-        <td>PIN CODE</td>
-        <td><input type="text" name="Pin_Code" maxlength="6" placeholder="123-45-678" />
-        (6 digit number)
-        </td>
-        </tr>
-         
-        <!----- Hobbies ---------------------------------------------------------->
-         
-        <tr>
-        <td>Per Person Charge: <br /><br /><br /></td>
-         
-        <td>
-        <input type="checkbox" name="Hobby_Drawing" value="Drawing" />
-        <500
-        <input type="checkbox" name="Hobby_Singing" value="Singing" />
-        <1000
-        <input type="checkbox" name="Hobby_Dancing" value="Dancing" />
-        <1500
-        <input type="checkbox" name="Hobby_Cooking" value="Cooking" />
-        <2000
-        <input type="checkbox" name="Hobby_Other" value="Other">
-        <input type="text" name="Other_Hobby" maxlength="30" />
-        </td>
-        </tr>
-         
-        <!----- Qualification---------------------------------------------------------->
-       
-         
-        <!----- Course ---------------------------------------------------------->
-        <tr>
-        <td>SEll TICKETS</td>
-        <td>
-            <input type="radio" id="html" name="fav_language" value="HTML">
-        <label for="html">YES</label>
-          <input type="radio" id="css" name="fav_language" value="CSS">
-        <label for="html">NO</label>
-        </td>
-        </tr>
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-img">
+                    <img src="Discord/images/form-img.jpg" alt="">
+                    <div class="signup-img-content">
+                        <h2>Sell Your Ticket online at your place</h2>
+                        <p>With our easy payment method</p>
+                    </div>
+                </div>
+                <div class="signup-form">
+                    <form method="POST" class="register-form" id="register-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="form-input">
+                                    <label for="first_name" class="required">Organiser,s name</label>
+                                    <input type="text" name="first_name" id="first_name" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="last_name" class="required">Event name</label>
+                                    <input type="text" name="last_name" id="last_name" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="company" class="required">Organising Committee</label>
+                                    <input type="text" name="company" id="company" />
+                               <!-- Phone comment <div class="form-input">
+                                    <label for="phone_number" class="required">Phone number</label>
+                                    <input type="text" name="phone_number" id="phone_number" />
+                                </div>-->
+                                <div class="form-input">
+                                    <label for="phone_number" class="required">Date</label>
+                                    <input type="date" name="phone_number" id="phone_number" />
+                                </div>
+                                <!--</div>
+                                <div class="form-input">
+                                    <label for="email" class="required">Email</label>
+                                    <input type="text" name="email" id="email" />
+                                </div>-->
+                            </div>
+                            <div class="form-input">
+                            <label for="email" class="required">Address</label>
+                            <input type="text" name="email" id="email" />
+                            </div>
+                            <div class="form-input">
+                                <label for="chequeno">Total no of people</label>
+                                <input type="number" name="chequeno" id="chequeno" />
+                            </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <div class="form-select">
+                                    <div class="label-flex">
+                                       
+                                    </div>
+                                    <div class="select-list">
+                                        <select name="meal_preference" id="meal_preference">
+                                            <option value="Vegetarian">Per Ticket Charge</option>
+                                            <option value="Kosher">500</option>
+                                            <option value="Asian Vegetarian">1000</option>
+                                            <option value="Asian Vegetarian">1500</option>
+                                            <option value="Kosher">2000</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-radio">
+                                    <div class="label-flex">
+                                        <label for="payment">WANT TO SELL Ticket Online</label>
+                                        <a href="#" class="form-link">Detail</a>
+                                    </div>
+                                    <div class="form-radio-group">            
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="payment" id="cash" checked>
+                                            <label for="cash">YES</label>
+                                            <span class="check"></span>
+                                        </div>
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="payment" id="cheque">
+                                            <label for="cheque">NO</label>
+                                            <span class="check"></span>
+                                        </div>
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="payment" id="demand">
+                                            <label for="demand">Demand Draf</label>
+                                            <span class="check"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-input">
+                                    <label for="chequeno">EVENT DESCRIPTION</label>
+                                    <input type="text" name="chequeno" id="chequeno" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="blank_name">SPECIAL GUESTS (if any)</label>
+                                    <input type="text" name="blank_name" id="blank_name" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="payable">IMAGES RELATED TO EVENTS</label>
+                                    <input type="file" name="payableff" id="payableff" />
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-input">
+                            <label for="blank_name">any government permit for events</label>
+                            <input type="file" name="blank_name" id="blank_name" />
+                        </div>
 
-        <!-----Event Description ---------------------------------------------------------->
-        <tr>
-            <td>Event Description <br /><br /><br /></td>
-            <td><textarea name="Address" rows="4" cols="30" style="padding: 50px;"></textarea></td>
-            </tr>
-         
-        <!-----Special guests ( if any): ---------------------------------------------------------->    
-        <tr>
-            <td>Special Guests:</td>
-                <td><input type="text" name="Last_Name" maxlength="30"/>
-                    <input type="file" id="files" name="files" multiple><br><br>
-                </td>
-                </tr>
-       
-        <!----- Submit and Reset ------------------------------------------------->
-        <tr>
-            <td colspan="2" align="center">
-            <input class="hello" type="submit" value="Submit">
-            <input class="hello" type="reset" value="Reset">
-            </td>
-            </tr>
-   
-        
+                        <button class="form-submit">
+                            <input type="submit" value="Submit" class="submit" id="submit" name="submit"/>
+                            <input type="submit" value="Reset" class="submit" id="reset" name="reset"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
 
-        </table>
-        </form>
-         
-</body>
+    </div>
+
+
+    <!-- JS -->
+    <script src="Discord/vendor/jquery/jquery.min.js"></script>
+    <script src="Discord/vendor/nouislider/nouislider.min.js"></script>
+    <script src="Discord/vendor/wnumb/wNumb.js"></script>
+    <script src="Discord/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="Discord/vendor/jquery-validation/dist/additional-methods.min.js"></script>
+    <script src="Discord/js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 </html>
