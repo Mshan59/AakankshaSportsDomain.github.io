@@ -111,11 +111,18 @@ nav{
     nav{
         display:none;
     }
+    ._cart{
+        display: none;
+    }
 
 }
 @media (max-width: 767px){
     .top-nav{
         display:block;
+    }
+@media (max-width: 568px){
+    .mobile-nav{
+        display:none;
     }
     /* .top-nav img{
         display: none;
@@ -124,9 +131,21 @@ nav{
     .search ul{
         display:flex ;
         position: relative;
-        margin: 0px 6px;
+        margin: 0px;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        left: -63px;
+        width: 150px;
+        height: 30px;
+
     }
-   
+    .search ul li input{
+        width: 150px;
+        height: 30px;
+    }
+
+
 }
 
 @media only screen and (min-width: 360px) and (max-width: 767px) {
@@ -162,10 +181,13 @@ nav{
 }
 @media only screen and (min-width: 320px) and (max-width: 767px){
     .mobile-nav{
-        display: block;
+        display: flex;
+        margin-left: -130px;
     }
     .mobile-nav img{
-        margin-left: 100px;
+        margin-left: 135px;
+        width: 50px;
+        height: 50px;
     }
     .top-nav{
         display: none;
@@ -173,7 +195,9 @@ nav{
     .input_search {
         background: #001729;
         color: #fff;
-        height: 45px;
+        height: 30px;
+        justify-content: center;
+        width: 250px;
     }
     .input_fields  {
         display:block;
@@ -181,9 +205,60 @@ nav{
         color: #fff;
 
     }
-    .input_search input{
+    .input_search li input{
         width: 200px;
         height: 45px;
     }
+    .in-cart li a{
+        display: flex;
+    }
+    .col-md-2{
+        display: none;
+    }
+    .cart_plus{
+        display: none;
+    }
 }
 
+@media only screen and (min-width: 320px) and (max-width: 767px){
+     .clip-path h1{
+        position: relative;
+        height: 40px;
+        width: 220px;
+        font-size: 20px;
+        padding: 6px 6px 6px 6px;
+        transition: 0.5 ease-in-out;
+        box-shadow: 0px 5px 25px rgba(0,0,0,0.25);
+    
+    }
+    .customer_info{
+        display: flex;
+        flex-direction: column;
+        min-height:600px;
+        margin-bottom: -50px;
+        /* flex-direction: row; */
+    
+    }
+    .customer_info .customer_help ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+    }
+    .customer_info .customer_help ul li a{
+        align-items: center;
+        text-align: center;
+    }
+    #marker::before{
+        display: none;
+    }
+    .pro_det{
+
+        display: flex;
+        font-size: 15px;
+        flex-direction: column;
+    }
+}
+
+}
